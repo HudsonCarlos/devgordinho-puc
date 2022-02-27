@@ -1,0 +1,136 @@
+* { /* PADRAO DA PAGINA*/
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-image: url('../img/background-dados.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img{
+    border:none;
+}
+
+a{
+    text-decoration: none;
+    font-size:18px;
+    color: #111;
+}
+
+a:hover{
+     color: indianred;
+}
+
+h1{
+    color: #30a9f7
+}
+
+#dvCentroLogin{
+    width: 450px;
+    height: auto;
+    background-image: url('../img/backgroundTransparente.png');
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px white;
+}
+
+#dvCentroLogin a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px
+}
+
+#dvCentroLogin a:hover{
+    color: #fccc3c;
+}
+
+#dvTopoLogin{
+    margin: 1px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid #606060;
+    box-shadow: 1px 1px 4px #111;
+}
+
+#dvTopoLogin img{
+    margin-left: 0px;
+    padding: 0px;
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    border-bottom: none;
+}
+
+#dvEmail, #dvPass{
+    width: auto;
+    height: auto;
+    margin: 8px;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #111;
+    background-color: #FFF;
+}
+
+#dvEmail img, #dvPass img{
+    width: 34px;
+    height: auto;
+    padding-right: 5px;
+    margin: 1px;
+    vertical-align: middle;
+    border-right: 2px solid #cccccc;
+}
+
+#dvEmail input, #dvPass input{
+    width: 88%;
+    height: auto;
+    padding-left: 3px;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.btnSubmit {
+    cursor: pointer;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 8px 8px 8px;
+    text-decoration: none;
+}
+
+.btnSubmit:hover {
+    background: #fccc3c;
+    background-image: -webkit-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: -moz-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: -ms-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: -o-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: linear-gradient(to bottom, #fccc3c, #fccc3c);
+    text-decoration: none;
+}
+
+
+
+.clear{
+    clear:both;
+}

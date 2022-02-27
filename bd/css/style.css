@@ -1,0 +1,279 @@
+* { /* PADRAO DA PAGINA*/
+    margin: 0 auto; 
+    padding: 0px; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* BODY*/
+body{
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* TOPO DA P�GINA*/
+#dvBarraTopo{
+    background-color: #cccccc;
+    width:100%;
+    height:0px;
+}
+
+#dvTopo{
+    background-image: url('../img/gradiente.png');
+    width:100%;
+    height:110px;
+}
+
+#dvCentroTopo{
+    width:70%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* LOGO*/
+#dvLogo{
+    width:250px;
+    float: left;
+}
+
+#dvLogo img{
+    width:540px;
+    height: 100px;
+    margin: 3px;
+    border:none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* PESQUISA*/
+#dvPesquisa{
+    width: 310px;
+    height:auto;
+    float:  right;
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+#txtPesquisa{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color: #FFF;
+    margin-left: 3px;
+    outline: none;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+#btnSubmit{
+    width: 40px;
+    height: 30px;
+    padding: 20px;
+    background-image: url('../img/btnPesquisa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* MENU*/
+#dvMenu{
+    background-color: #353535;
+    width:100%;
+    height:42px;
+}
+
+#dvCentroMenu{
+    width:80%;
+    /*width:800px;*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CENTRO DA PAGINA*/
+#dvCentro{
+    background-color: #00b8fd;
+    width: 70%;
+    /*    width: 1000px;*/
+    height: auto;
+    border: 2px solid #606060;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CAMPO DA ESQUERDA*/
+#dvCentroEsquerda{
+    width:67%;
+    height:auto;
+    min-height: 600px;
+    float: left;
+    border-right: 2px solid #cccccc;
+}
+
+#dvEsquerda{
+    width: 100%;
+    height: auto;
+}
+
+#dvCadastro{ /** Cadastro de usuários **/
+    
+}
+
+#dvConteudoPagina{ 
+    background-color: #f9f9f9;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-shadow: 0 0 10px beige;
+/*    font-size: 18px;*/
+    padding: 5px;
+    width: 96%;
+    height: auto;
+}
+
+.textoComum{ /** Cadastro de usuários **/
+/*    font-size: 18px;*/
+}
+
+.inputFormulario{ /** Cadastro de usuários **/
+    width: 300px;
+    padding: 5px;
+    color: #111;
+/*    font-size: 18px;*/
+    outline-color: red;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.btnSubmit { /** Padrão para botões **/
+    cursor: pointer;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+/*    font-size: 15px;*/
+    padding: 10px 20px 10px 20px;
+    margin: 0px 8px 8px 8px;
+    text-decoration: none;
+}
+
+.btnSubmit:hover { /** Padrão para botões **/
+    background: #fccc3c;
+    background-image: -webkit-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: -moz-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: -ms-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: -o-linear-gradient(top, #fccc3c, #fccc3c);
+    background-image: linear-gradient(to bottom, #fccc3c, #fccc3c);
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CAMPO DA DIREITA*/
+#dvDireita{
+    width:31%;
+    height:auto;
+    min-height: 600px;
+    float:right;
+}
+
+#dvAside{
+    background-color: #f9f9f9;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-shadow: 0 0 10px beige;
+/*    font-size: 15px;*/
+    width: 97%;
+    height: auto;
+    padding: 5px;
+    
+}
+
+.clear{
+    clear:both;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CAMPO DA DIREITA*/
+
+#foRodape{
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* LISTAR USUARIO */
+
+
+.imgLista{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #EEE;
+}
+
+.btnLista{
+    width: 24px;
+    margin-left: 15px;
+}
+
+.textoLista{
+    font-weight: bolder;
+    color: #30a9f7;
+}
+
+#dvListarUsuario table tr td{
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#dvListarUsuario table tbody tr:nth-child(2n+1){
+    background: #EEE;
+}
+
+#dvListarUsuario table tbody tr:nth-child(2n+2){
+    background: #CCC;
+}
+
+#dvListarUsuario table tbody tr:hover{
+    background: #666666;
+    color:#FFF;
+}
+
+#dvVisualizarUsuario ul{
+    padding: 30px;
+    background: #EEE;
+    border-radius: 5px;
+    border:2px solid #FFF;
+}
+
+#dvVisualizarUsuario ul{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.imgVisualizar{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #EEE;
+}
