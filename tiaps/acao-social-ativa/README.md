@@ -21,7 +21,7 @@ A plataforma teria um pré cadastro, permitindo que
 
 * Hudson da Silva Carlos
 * Philippe Moreira de Jesus
-* Nome completo do aluno 3
+* Evaldo Carlos Araujo
 * Nome completo do aluno 4
 
 ## Professores responsáveis
